@@ -9,16 +9,16 @@ from JisooX.events import register
 from JisooX import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/add241c92045b3f359bb3.jpg"
+PHOTO = "https://telegra.ph/file/4cb80c94031cdca5abde7.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
   PRIME = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm ᴅᴀᴘᴘ ʀʙᴛ.** \n\n"
   PRIME += "✫ **I'm Working Properly** \n\n"
-  PRIME += f"✫ **My Lord : [ᴀɴᴀᴋ ᴛᴜʜᴀɴ](https://t.me/SangDappa)** \n\n"
+  PRIME += f"✫ **My Lord : [ᴀɴᴀᴋ ᴛᴜʜᴀɴ](https://t.me/triplenineee)** \n\n"
   PRIME += f"✫ **Library Version :** `{telever}` \n\n"
   PRIME += f"✫ **Telethon Version :** `{tlhver}` \n\n"
   PRIME += f"✫ **Pyrogram Version :** `{pyrover}` \n\n"
   PRIME += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/dapprbt_bot?start=help"), Button.url("ʀᴇᴘᴏ​", "https://www.xnxx.com/")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/ZhuXRobot?start=help"), Button.url("ʀᴇᴘᴏ​", "https://www.xnxx.com/")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=PRIME,  buttons=BUTTON)
