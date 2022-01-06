@@ -13,7 +13,7 @@ PHOTO = "https://telegra.ph/file/4cb80c94031cdca5abde7.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  PRIME = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm ᴅᴀᴘᴘ ʀʙᴛ.** \n\n"
+  PRIME = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Narumi.** \n\n"
   PRIME += "✫ **I'm Working Properly** \n\n"
   PRIME += f"✫ **My Lord : [ᴀɴᴀᴋ ᴛᴜʜᴀɴ](https://t.me/triplenineee)** \n\n"
   PRIME += f"✫ **Library Version :** `{telever}` \n\n"
